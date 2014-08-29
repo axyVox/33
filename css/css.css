@@ -1,0 +1,21 @@
+.center
+{
+    margin:0 auto;
+    width:70%;
+    height:auto;
+
+}
+
+.centerImageTitle{
+	text-align: center; 
+	width: 100%;
+}
+
+.fontX{
+	font-size: 17px;
+}
+
+.mainContent{
+    margin-left: 20px;
+    margin-right: 20px;
+}

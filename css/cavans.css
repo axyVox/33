@@ -1,0 +1,35 @@
+#phocagallery .pg-name {
+    color: #B36B00;
+}
+.phocagallery-box-file {
+    background: none repeat scroll 0 0 #FCFCFC;
+    border: 1px solid #E8E8E8;
+    margin: 19px;
+    padding: 19px;
+}
+.phocagallery-box-file-first {
+    background: none repeat scroll 0 0 #F5F5F5;
+}
+.phocagallery-box-file:hover, .phocagallery-box-file.hover {
+    background: none repeat scroll 0 0 #F5F5F5;
+    border: 1px solid #B36B00;
+}
+.bgPhocaClass {
+    background: none repeat scroll 0 0 #666666;
+    opacity: 0.7;
+    z-index: 1000;
+}
+.fgPhocaClass {
+    background: none repeat scroll 0 0 #F6F6F6;
+    opacity: 1;
+    z-index: 1000;
+}
+.fontPhocaClass {
+    color: #000000;
+    z-index: 1001;
+}
+.capfontPhocaClass, .capfontclosePhocaClass {
+    color: #FFFFFF;
+    font-weight: bold;
+    z-index: 1001;
+}
