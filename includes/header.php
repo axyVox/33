@@ -7,7 +7,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </a>
-            <a class="brand" href="index.php" style="color: red;">TIJANA KOJIĆ</a>
+            <a class="brand" href="index.php">TIJANA KOJIĆ</a>
             <div class="nav-collapse">
                 <?php include 'includes/mainMenu.php'; ?>
             </div>

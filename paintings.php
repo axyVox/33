@@ -30,24 +30,16 @@
 <link rel="stylesheet" href="css/cavans.css">
 
 <link rel="stylesheet" href="css/css.css">
+<link rel="stylesheet" href="css/media.css">
 
 </head>
 <body>
     <?php include 'includes/header.php'; ?>
-<div class="container-fluid">
-	
-	
-    <header></header>
-    
-    <br />
+<div class="container-fluid mainGallery">
     <button id="start-slideshow" class="btn btn-large btn-inverse" data-slideshow="5000" data-target="#modal-gallery" data-selector="#gallery [data-gallery=gallery]">SLIDESHOW</button>
-	<br />
-    	
-    
     <div id="gallery" data-toggle="modal-gallery" data-target="#modal-gallery">
     	
     	<?php
-    	//echo getcwd(); //'/var/www/theSun/images/paintings'
     	$pictures = array();
 		$imageDir = getcwd().'/images/paintings';
     	if ($handle = opendir($imageDir)) {
@@ -60,7 +52,6 @@
 					if(substr($name, -2) != '_s' && substr($name, -2) != '_d'){
 						$exp = explode('_', $name);
 						$num = $exp[0];
-						//echo "$num --- $name<br />";
 						$pictures[$num] = $name;
 					}
 					
@@ -70,11 +61,8 @@
 
 			natsort($pictures);
 			foreach ($pictures as $num => $name) {
-				
 				$desc_file = $imageDir.'/'.$name.'_d.txt';
-				
 				$description_text = file_get_contents($desc_file);
-				
 				$lines = explode("\n", str_replace("\r", "", $description_text));
 				
 				$pictureName = '';
@@ -84,8 +72,6 @@
 				$i = 0;
 				foreach ($lines as $line)
 				{	$i++;
-				    // echo '<br />'.$line.'<br />';
-				    
 				    
 				    if($i == 1){
 				    	$pictureName = $line;
@@ -106,7 +92,7 @@
 							
 				?>
 						
-				 <a href="images/paintings/<?php echo $name.'.jpg'; //echo $name.$extension; ?>" 
+				 <a href="images/paintings/<?php echo $name.'.jpg'; ?>"
 				 	class="phocagallery-box-file pg-box-image" 
 				 	title="<?php echo "$pictureName&nbsp;&nbsp;&nbsp;$tech&nbsp;&nbsp;&nbsp;$dimension"; ?>" 
 				 	data-gallery="gallery">
@@ -122,13 +108,9 @@
 	   
 					
 				<?php
-						
 			}
-		
 	    }
-		
 	    closedir($handle);
-	
     ?>
 
     </div>

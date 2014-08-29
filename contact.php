@@ -34,17 +34,8 @@
 
 <style>
 
-.contactWrap{
-	position: relative;
-}
 	
 .contactPictureRight{
-	/*background-image: url("img/contact.jpg");
-    background-repeat: no-repeat;
-    float: right;
-    height: 13.292in;
-    width: 11.444in;*/
-	
 }	
 
 .contactPictureRight img{
@@ -54,10 +45,6 @@
 
 .contactEmailLeft{
 	color: white;
-    /*margin-bottom: 20px;*/
-    /*margin-left: auto;*/
-    /*margin-right: auto;*/
-    /*width: 50%;*/
 }
 
 .contactPictureRight {

@@ -6,37 +6,16 @@
 
 }
 
-@media (min-width: 768px) {
-    .contactEmailLeft{
-    }
 
-
-}
-
-
-
-
-@media (min-width: 948px) {
-    .contactEmailLeft {
-        /*margin-bottom: 0 !important;*/
-    }
-}
 
 @media (min-width: 980px) {
-    .span11{
-        /*width: auto;*/
-    }
-
 
     .contactPictureRight {
         margin-top: 20px;
     }
-}
 
-@media (max-width: 768px) {
-    .contactEmailLeft{
-        /*margin-bottom: 0 !important;*/
+    .mainGallery{
+        margin-top: 60px;
     }
-
-
 }
+
