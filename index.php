@@ -33,7 +33,7 @@
 
 </head>
 <body>
-<div class="navbar navbar-fixed-top navbar-inverse">
+<!--<div class="navbar navbar-fixed-top navbar-inverse">
     <div class="navbar-inner">
         <div class="container-fluid">
             <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -43,12 +43,13 @@
             </a>
             <a class="brand" href="#">TIJANA KOJIĆ</a>
             <div class="nav-collapse">
-            	<?php include 'includes/mainMenu.php'; ?>
+            	<?php /*include 'includes/mainMenu.php'; */?>
             	
             </div>
         </div>
     </div>
-</div>
+</div>-->
+<?php include 'includes/header.php'; ?>
 <div class="container-fluid">
 	<img src="img/index.jpg" />
 
