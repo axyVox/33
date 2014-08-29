@@ -1,10 +1,10 @@
 @media (min-width: 1322px) {
-    .span12{
-        width: inherit;
-    }
-
     .picture > a{
         margin: 10px 50px;
+    }
+
+    .span12{
+        width: inherit;
     }
 }
 
@@ -12,7 +12,6 @@
     .mainContent{
         margin-top: 60px;
     }
-
 }
 
 @media (min-width: 980px) {
@@ -27,8 +26,6 @@
         margin-left: 30px;
         margin-right: 30px;
     }
-
-
 }
 
 @media (min-width: 768px) and (max-width: 979px) {

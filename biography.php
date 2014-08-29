@@ -33,33 +33,6 @@
 
 </head>
 <body>
-<!--<div class="navbar navbar-fixed-top navbar-inverse">
-    <div class="navbar-inner">
-        <div class="container-fluid">
-            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </a>
-            <a class="brand" href="#">TIJANA KOJIĆ</a>
-            <div class="nav-collapse">
-            	<?php /*include 'includes/mainMenu.php'; */?>
-            	 <ul class="nav">
-				    <li><a href="index.php">INDEX</a></li>
-				    <li class="active"><a href="biography.php">BIOGRAFIJA | BIOGRAPHY</a></li>
-				    <li><a href="paintings.php">SLIKE | PAINTINGS</a></li>
-				    <li><a href="drawings.php">CRTEŽI | DRAWINGS</a></li>
-				    <li><a href="sculptures.php">SKULPTURE | SCULPTURES</a></li>
-				    <li><a href="photos.php">FOTO | PHOTOS</a></li>
-				    <li ><a href="texts.php">TEKSTOVI | TEXTS</a></li>
-				    <li><a href="news.php">VESTI | PRESS & NEWS</a></li>
-				    <li><a href="contact.php">KONTAKT | CONTACT</a></li>
-				</ul>
-            	
-            </div>
-        </div>
-    </div>
-</div>-->
 
 <?php include 'includes/header.php'; ?>
 
