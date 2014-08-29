@@ -38,8 +38,10 @@
 <div class="container-fluid mainGallery">
     <button id="start-slideshow" class="btn btn-large btn-inverse" data-slideshow="5000" data-target="#modal-gallery" data-selector="#gallery [data-gallery=gallery]">SLIDESHOW</button>
 
-    <div id="gallery" data-toggle="modal-gallery" data-target="#modal-gallery">
-    	
+
+    <div class="row">
+    <div id="gallery" data-toggle="modal-gallery" data-target="#modal-gallery" class="picture span12">
+
     	<?php
     	$pictures = array();
 		$imageDir = getcwd().'/images/sculptures';
@@ -114,8 +116,7 @@
     ?>
 
     </div>
-    
-    <br>
+    </div>
 </div>
 <!-- modal-gallery is the modal dialog used for the image gallery -->
 <div id="modal-gallery" class="modal modal-gallery hide fade center" tabindex="-1">
