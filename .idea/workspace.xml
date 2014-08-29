@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f22e9d9-7423-4c07-b2da-7ad679df353c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/css.css" afterPath="$PROJECT_DIR$/css/css.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/media.css" afterPath="$PROJECT_DIR$/css/media.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sculptures.php" afterPath="$PROJECT_DIR$/sculptures.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="33.iws" />
@@ -49,7 +47,7 @@
       <file leaf-file-name="media.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/media.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="490" selection-end="490" vertical-scroll-proportion="0.50292397" vertical-offset="131" max-vertical-offset="986">
+            <state line="7" column="5" selection-start="123" selection-end="123" vertical-scroll-proportion="0.13062568" vertical-offset="0" max-vertical-offset="1683">
               <folding />
             </state>
           </provider>
@@ -111,8 +109,8 @@
         <option value="$PROJECT_DIR$/contact.php" />
         <option value="$PROJECT_DIR$/drawings.php" />
         <option value="$PROJECT_DIR$/paintings.php" />
-        <option value="$PROJECT_DIR$/css/css.css" />
         <option value="$PROJECT_DIR$/sculptures.php" />
+        <option value="$PROJECT_DIR$/css/css.css" />
         <option value="$PROJECT_DIR$/css/media.css" />
       </list>
     </option>
@@ -261,7 +259,11 @@
       <created>1409313018473</created>
       <updated>1409313018473</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Sample 1.3&#10;">
+      <created>1409321513644</created>
+      <updated>1409321513644</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -305,7 +307,8 @@
     <MESSAGE value="Sample 1.0" />
     <MESSAGE value="Sample 1.0&#10;" />
     <MESSAGE value="Sample 1.2&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sample 1.2&#10;" />
+    <MESSAGE value="Sample 1.3&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sample 1.3&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -348,13 +351,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/css.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="1" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="1" selection-end="1" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="357">
@@ -371,9 +367,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="1" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/media.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="490" selection-end="490" vertical-scroll-proportion="0.50292397" vertical-offset="131" max-vertical-offset="986">
+        <state line="7" column="5" selection-start="123" selection-end="123" vertical-scroll-proportion="0.13062568" vertical-offset="0" max-vertical-offset="1683">
           <folding />
         </state>
       </provider>
